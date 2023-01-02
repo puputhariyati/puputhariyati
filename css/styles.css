@@ -1,0 +1,135 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family:serif;
+}
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0px auto;
+  font-family: 'Sacramento', serif;
+  color: #663366;
+}
+h2{
+  font-family: serif;
+  font-size: 2.5rem;
+  color: #663366;
+  font-weight: normal;
+}
+h3{
+  font-family: sans-serif;
+  color: #666699;
+}
+p{
+  line-height: 1.5;
+}
+hr{
+  border: dotted #666699 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.top-container{
+  background-color: lavender;
+  position: relative;
+  padding-top: 50px;
+}
+.top-cloud{
+  width: 5%;
+  position: absolute;
+  right: 400px;
+  top: 15px;
+}
+.bottom-cloud{
+  width: 5%;
+  position: absolute;
+  left: 400px;
+  bottom: 200px;
+}
+.beach{
+  width:20%;
+  top: 20px;
+}
+.middle-container{
+margin: 100px 0;
+}
+.skill-row1{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skill-row2{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+}
+.dictionary{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.mydictionary{
+color: #666699;
+text-decoration: none;
+}
+.mydictionary:hover{
+  color: #660033;
+}
+.sales-img{
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+.analytics-img{
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+.dictionary-img{
+  width: 13%;
+  float: left;
+  margin-right: 30px;
+}
+.btn {
+  background: #666699;
+  background-image: -webkit-linear-gradient(top, #666699, #320c63);
+  background-image: -moz-linear-gradient(top, #666699, #320c63);
+  background-image: -ms-linear-gradient(top, #666699, #320c63);
+  background-image: -o-linear-gradient(top, #666699, #320c63);
+  background-image: linear-gradient(to bottom, #666699, #320c63);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: serif;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #663366;
+  background-image: -webkit-linear-gradient(top, #663366, #522496);
+  background-image: -moz-linear-gradient(top, #663366, #522496);
+  background-image: -ms-linear-gradient(top, #663366, #522496);
+  background-image: -o-linear-gradient(top, #663366, #522496);
+  background-image: linear-gradient(to bottom, #663366, #522496);
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #663366;
+  padding: 10px 0;
+}
+.footer-link{
+  color: #FFCCFF;
+  margin: 10px 15px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #ffffff;
+}
+.copyright{
+  color: #FFCCFF;
+  font-size: 0.75rem;
+  padding: 10px 0;
+}
