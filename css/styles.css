@@ -75,6 +75,18 @@ text-decoration: none;
 .mydictionary:hover{
   color: #660033;
 }
+.bahasa{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+}
+.mybahasa{
+color: #666699;
+text-decoration: none;
+}
+.mybahasa:hover{
+  color: #660033;
+}
 .sales-img{
   width: 15%;
   float: left;
@@ -89,6 +101,11 @@ text-decoration: none;
   width: 13%;
   float: left;
   margin-right: 30px;
+}
+.indo-img{
+  width: 10%;
+  float: right;
+  margin-left: 30px;
 }
 .btn {
   background: #666699;
