@@ -325,6 +325,7 @@
       <tr>
       <td>
       <li>about</li>
+      <li>again</li>
       <li>all</li>
       <li>already</li>
       <li>always</li>
@@ -609,6 +610,7 @@
       <li>food</li>
       <li>juice</li>
       <li>lemon</li>
+      <li>meat</li>
       <li>medication</li>
       <li>pizza</li>
       <li>rice</li>
@@ -616,6 +618,7 @@
       <li>glass</li>
       <li>milk</li>
       <li>mustard</li>
+      <li>vegetable</li>
       <li>water</li>
       <li>wine</li>
     </div>`;
@@ -986,7 +989,7 @@
         document.write(
           `french: c'est combien? <br>`)
       }
-      else if (keyword == "please") {
+      else if (keyword == "please" ||keyword == "tolong") {
         document.write(
           `French: s'il vous plaît <br>
     Une table pour deux personnes, s'il vous plaît.<br>
@@ -994,10 +997,13 @@
     German: bitte <br>
     Kaffee, bitte!<br>
     <i><font color="777777">Coffee, please. </font></i><br><br>
-    Jpn: ください (kudasai) <br>
+    Japanese: ください (kudasai) <br>
     お茶をください (ocha o kudasai)<br>
     <i><font color="777777">Tea, please. </font></i><br>
-    <i>tips: The marker を (o) is attached to things or people, and means that they are the target of the verb.</i><br>`)
+    <i>tips: The marker を (o) is attached to things or people, and means that they are the target of the verb.</i><br>
+    Chinese: 请 qǐng <br>
+    请帮助我。qǐng bāng zhù wǒ.<br>
+    <i><font color="777777">Please help me. </font></i><br>`)
       }
       else if (keyword == "sorry") {
         document.write(
@@ -2381,7 +2387,7 @@ Indonesian: saya <br>
     Aujourd'hui, je perds du temps. Hier, j'ai perdu du temps. <br>
     <i><font color="777777">Today, I am losing time. Yesterday, I lost time.</font></i><br>`)
       }
-      else if (keyword == "help") {
+      else if (keyword == "help"||keyword == "bantu") {
         document.write(
           `French: aidé <br>
     Je l'ai aidé parce qu'il avait beaucoup de problèmes.<br>
@@ -2392,7 +2398,10 @@ Indonesian: saya <br>
     <i><font color="777777">A lot of people helped me when I was having problems.</font></i><br><br>
     Spanish: ayudo <br>
     Mamá, te ayudo con la comida todos los días. <br>
-    <i><font color="777777">Mom, I help you with the food every day.</font></i><br>`)
+    <i><font color="777777">Mom, I help you with the food every day.</font></i><br><br>
+    Chinese: 帮助 bāng zhù <br>
+    请帮助我。qǐng bāng zhù wǒ.<br>
+    <i><font color="777777">Please help me. </font></i><br>`)
       }
       else if (keyword == "hit") {
         document.write(
@@ -3152,6 +3161,15 @@ Indonesian: saya <br>
     Je boirai de l'eau avec du jus de citron.<br>
     <i><font color="777777">I'll drink some water with lemon juice.</font></i><br>`)
       }
+      else if (keyword == "meat"||keyword == "daging") {
+        document.write(`
+    Japanese: 肉 niku <br>
+    肉は食べません。niku wa tabemasen.<br>
+    <i><font color="777777">I don't eat meat.</font></i><br>
+    Indonesia: daging <br>
+    Saya tidak makan daging.<br>
+    <i><font color="777777">I don't eat meat.</font></i><br>`)
+      }
       else if (keyword == "medication") {
         document.write(`
     French: médicament <br>
@@ -3233,6 +3251,15 @@ Indonesian: saya <br>
     Kr: 우유 (uiyu)<br>
     아기의 우유 (agiui uiyu)<br>
     <i><font color="777777">Baby's milk</font></i><br>`)
+      }
+      else if (keyword == "vegetable"||keyword == "sayur") {
+        document.write(
+          `Japanese: 野菜 yasai <br>
+    野菜を食べます。yasai o tabemasu. <br>
+    <i><font color="777777">I eat vegetables.</font></i><br><br>
+    Indonesian: sayur <br>
+    Saya makan sayur. <br>
+    <i><font color="777777">I eat vegetables.</font></i><br><br>`)
       }
       else if (keyword == "bottle") {
         document.write(
@@ -4504,6 +4531,12 @@ Indonesian: saya <br>
     environ trente euros <br>
     <i><font color="777777">about thirty euros</font></i><br>`)
       }
+      else if (keyword == "again"||keyword == "lagi") {
+        document.write(
+          `Chinese: 再 ... 一次 zài ... yí cì (one more/again)<br>
+    再说一次 zài shuō yí cì<br>
+    <i><font color="777777">say it again</font></i><br>`)
+      }
       else if (keyword == "all") {
         document.write(
           `French: tout <br>
@@ -5081,7 +5114,7 @@ Elle apprendra beaucoup de choses pour devenir un bon médecin.<br>
       //numbers
       else if (keyword == "1" || keyword == "one") {
         document.write(
-          `Fr: un (m), une (f) <br>
+          `French: un (m), une (f) <br>
     Une moto a deux roues, et une voiture en a quatre.<br><br>
     <table border="1">
     <tr>
@@ -5090,6 +5123,7 @@ Elle apprendra beaucoup de choses pour devenir un bon médecin.<br>
       <th>French</th>
       <th>Indo</th>
       <th>Japanese</th>
+      <th>Chinese</th>
     </tr>
     <tr>
       <td>0</td>
@@ -5104,7 +5138,8 @@ Elle apprendra beaucoup de choses pour devenir un bon médecin.<br>
       <td>one</td>
       <td>un (m), une (f)</td>
       <td>satu</td>
-      <td>一 (ichi)</td>
+      <td>一 ichi</td>
+      <td>一 yí </td>
     </tr>
     <tr>
       <td>2</td>
@@ -5161,7 +5196,10 @@ Elle apprendra beaucoup de choses pour devenir un bon médecin.<br>
       <td>dix</td>
       <td>sepuluh</td>
     </tr>
-  </table><br>`)
+  </table><br>
+  Chinese: 一 yí <br>
+再一次. zài yí cì.<br>
+<i><font color="777777">one more time</font></i><br>`)
       }
       else if (keyword == "2" || keyword == "two") {
         document.write(
