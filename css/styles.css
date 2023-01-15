@@ -75,16 +75,16 @@ text-decoration: none;
 .mydictionary:hover{
   color: #660033;
 }
-.bahasa{
+.computer{
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: right;
 }
-.mybahasa{
+.mycomputer{
 color: #666699;
 text-decoration: none;
 }
-.mybahasa:hover{
+.mycomputer:hover{
   color: #660033;
 }
 .colab{
@@ -112,8 +112,8 @@ text-decoration: none;
   float: left;
   margin-right: 30px;
 }
-.indo-img{
-  width: 10%;
+.robot-img{
+  width: 15%;
   float: right;
   margin-left: 30px;
 }
@@ -151,6 +151,9 @@ text-decoration: none;
 .bottom-container{
   background-color: #663366;
   padding: 10px 0;
+  position: relative;
+  margin-top: 100px;
+  bottom: 100;
 }
 .footer-link{
   color: #FFCCFF;

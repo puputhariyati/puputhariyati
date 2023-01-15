@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Computer Languages</title>
+    <style media="screen">
+      a{
+        text-decoration: none;
+      }
+      a:hover{
+        Color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 style="Color:blue;">Javascript</h3>
+    <div class="learning">
+      <div class="dictionary">
+        <h3 style="Color:purple;">Life in weeks</h3>
+        <p>Javascript project - Udemy - web development bootcamp by Dr. Angela Yu </p>
+        <h4>Your remaining time if you live up to 90 years old.</h4>
+        <label>your current age : </label>
+        <input type="number" id="age">
+        <button id="myBtn" onclick="myLife()">calculate </button>
+        <span><br></span>
+        <span><br></span>
+        <div id="result"></div>
+        <script>
+          function myLife() {
+            var yearsremaining = 90 - document.getElementById("age").value;
+            var days = yearsremaining * 365;
+            var weeks = yearsremaining * 52;
+            var months = yearsremaining * 12;
+          document.getElementById("result").innerHTML = "You have "+ days.toLocaleString('en-US') + " days; " + weeks.toLocaleString('en-US') + " weeks; and " + months + " months left.";
+        }
+        </script>
+        <script>
+          var input = document.getElementById("age");
+          input.addEventListener("keypress", function(event) {
+          if (event.key === "Enter") {
+          document.getElementById("myBtn").click();
+            }
+            });
+        </script>
+      </div>
+  </div>
+  </body>
+</html>
