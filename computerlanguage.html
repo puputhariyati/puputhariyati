@@ -3,19 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Computer Languages</title>
-    <style media="screen">
-      a{
-        text-decoration: none;
-      }
-      a:hover{
-        Color: blue;
-      }
-    </style>
   </head>
   <body>
     <h3 style="Color:blue;">Javascript</h3>
-    <div class="learning">
-      <div class="dictionary">
+    <hr>
+      <div>
         <h3 style="Color:purple;">Life in weeks</h3>
         <p>Javascript project - Udemy - web development bootcamp by Dr. Angela Yu </p>
         <h4>Your remaining time if you live up to 90 years old.</h4>
@@ -43,6 +35,41 @@
             });
         </script>
       </div>
-  </div>
+      <hr>
+      <div>
+        <h3 style="Color:purple;">Vocabulary Counter</h3>
+        <p>still in progress... </p>
+        <h4>To see the most used words in a speech, conversation, stories, etc.</h4>
+        <form>
+          <textarea id="inputText" placeholder="your text here" cols="50" rows="10"></textarea><br>
+          <input type="submit" id="paragraph" onclick="countVocabulary(); return false;">
+        </form>
+        <span><br></span>
+        <div id="wordCounts"></div>
+        <script>
+        function countVocabulary(word, index){
+        //var text = 'I love you love me.';
+        var inputText = document.getElementById("inputText").value;
+        // Split the text into an array of words
+        var words = inputText.split(/\s/);
+        // Create an empty object to store the vocabulary count
+        var wordCounts = {};
+        // Loop through the array of words and count the frequency of each word
+        for (var i = 0; i < words.length; i++) {
+        var word = words[i].toLowerCase();
+        if (wordCounts[word] === undefined) {
+          wordCounts[word] = 1;
+        } else {
+          wordCounts[word]++;
+          }
+        }
+        var output = "";
+        for (var word in wordCounts) {
+          output += index + ": " + word + ": " + wordCounts[word] + "<br>";
+        }
+        document.getElementById("wordCounts").innerHTML = output;
+      }
+      </script>
+      </div>
   </body>
 </html>
