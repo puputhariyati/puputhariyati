@@ -148,12 +148,12 @@ text-decoration: none;
   background-image: linear-gradient(to bottom, #663366, #522496);
   text-decoration: none;
 }
-.bottom-container{
+footer{
   background-color: #663366;
   padding: 10px 0;
-  position: relative;
   margin-top: 100px;
-  bottom: 100;
+  width: 1350px;
+  position: absolute;
 }
 .footer-link{
   color: #FFCCFF;
