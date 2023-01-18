@@ -8,6 +8,12 @@
     a{
       text-decoration: none;
     }
+    .footer-link{
+      color:#663366;
+    }
+    .footer-link:hover{
+      color: black;
+    }
   </style>
 </head>
 
@@ -769,7 +775,8 @@
   <hr/>
   <div class="navbar">
     <h3>Search words by stories</h3>
-    <a href="spiritedaway.html" target="_blank">Spirited Away</a>
+    <a href="spirited-away.html">Spirited Away</a><br>
+    <a href="interesting-conversation.html">An Interesting Conversation</a>
   </div>
   <hr/>
   <div class="navbar">
@@ -1082,43 +1089,11 @@ Helene <br>
     </tr>
   </table><br>`)
       }
-      else if (keyword == "this" || keyword == "these") {
-        document.write(
-          `French: cette (f), ce (m), cet (things), ces (pl), ça (object), celle-ci (this one)<br>
-    Cette voiture ne fonctionne pas : elle est en panne.<br>
-    <i><font color="777777">This car doesn't work. It is broken.</font></i><br>
-    Ce moteur fait un bruit bizarre.<br>
-    <i><font color="777777">This engine is making a weird noise.</font></i><br>
-    C'est ma mère.<br>
-    <i><font color="777777">This is my mother.</font></i><br>
-    Ce sont mes parents.<br>
-    <i><font color="777777">These are my parents.</font></i><br>
-    Cet appareil sert à prendre des photos.<br>
-    <i><font color="777777">This device is used for taking pictures.​ </font></i><br>
-    Il a acheté ça spécialement pour moi.<br>
-    <i><font color="777777">He bought this especially for me.​ </font></i><br>
-    Tu préfères celle-ci ou celle-là ?<br>
-    <i><font color="777777">Do you prefer this one or that one?</font></i><br>
-    Celles-ci sont très belles.<br>
-    <i><font color="777777">These are very beautiful.</font></i><br><br>
-    Spanish: ese (m), esta (f)<br>
-    Ese señor, yo lo conozco.<br>
-    <i><font color="777777">This gentleman, I know him.</font></i><br>
-    Esta mesa, yo la compro.<br>
-    <i><font color="777777">This table, I'm buying it.</font></i><br><br>
-    Japanese: この (kono), これ (kore), ここ (koko) <br>
-    このバスは遅いですよ。(kono basu wa oso i desuyo.) <br>
-    <i><font color="777777">This bus is slow you know.</font></i><br>
-    これをください (kore o kudasai)<br>
-    <i><font color="777777">This one, please. </font></i><br>
-    ここは家から近いです。(koko wa ie kara chika i desu.)<br>
-    <i><font color="777777">This place is near my home.</font></i><br>
-    <i>tips: The marker を (o) is attached to things or people, and means that they are the target of the verb.</i><br>
-    これは青いコートです. (kore wa aoi kooto desu)<br>
-    <i><font color="777777">This is a blue coat.</font></i><br><br>
-    Korean: 이 (i) <br>
-    이 오이(i oi) <br>
-    <i><font color="777777">This cucumber.</font></i><br>`)
+      else if (keyword == "this"||keyword == "ini"||keyword == "zhe"||keyword == "这") {
+        window.open('this.html', "_blank")
+      }
+      else if (keyword == "is"||keyword == "adalah"||keyword == "shi"||keyword == "是") {
+        window.open('is.html', "_blank")
       }
       else if (keyword == "less") {
         window.open('less.html', "_blank")
@@ -1587,46 +1562,7 @@ Indonesian: saya <br>
       }
       //possessive
       else if (keyword == "my") {
-        document.write(
-          `French: mon (m), ma (f), mes (pl) <br>
-    Mon vélo est cassé, je ne peux plus l'utiliser. <br>
-    <i><font color="777777">My bike is broken. I can't use it anymore. </font></i><br>
-    Ma femme s'appelle Alice.<br>
-    <i><font color="777777">My wife's name is Alice.</font></i><br>
-    tips<br>
-  <table border="1">
-    <tr>
-      <th>english</th>
-      <th>french</th>
-    </tr>
-    <tr>
-      <th>my</th>
-      <td>mon père, ma mère (sl)<br>
-      mes frères (pl)</td>
-    </tr>
-    <tr>
-      <th>your</th>
-      <td>ton frère, ta sœur (sl)<br>
-      tes sœurs (pl)</td>
-    </tr>
-    <tr>
-      <th>his</th>
-      <td>son fils, sa fille (sl)<br>
-      ses voitures (pl)</td>
-    </tr>
-    <tr>
-      <th>her</th>
-      <td>son fils, sa fille (sl)<br>
-      ses voitures (pl)</td>
-    </tr>
-    <tr>
-      <th>our</th>
-      <td>notre mère</td>
-    </tr>
-  </table><br>
-  Spanish: mi <br>
-  Mi abuela me quiere mucho.<br>
-  <i><font color="777777">My grandmother loves me a lot.</font></i><br><br>`)
+        window.open('my.html', "_blank")
       }
       else if (keyword == "your") {
         document.write(
@@ -2250,10 +2186,7 @@ Indonesian: saya <br>
           <i><font color="777777">The bag that you're carrying is heavy.​</font></i><br>`)
       }
       else if (keyword == "interesting") {
-        document.write(
-          `French: intéressant <br>
-    Il y a plusieurs sites touristiques très intéressants. <br>
-    <i><font color="777777">There are several very interesting tourists attractions. </font></i><br>`)
+        window.open(`interesting.html`,"_blank")
       }
       else if (keyword == "international") {
         document.write(
@@ -5873,20 +5806,27 @@ Elle apprendra beaucoup de choses pour devenir un bon médecin.<br>
 
     }
   </script>
-  <h3><i>Resource</i></h3>
-  <a href="https://www.ldoceonline.com/" target="_blank">Longman</a>
-  <a href="https://www.duolingo.com/learn" target="_blank">Duolingo</a>
-  <a href="https://translate.google.com/?sl=en" target="_blank">Google Translate</a>
-  <h3><i>Credits to:</i></h3>
-  <p>Duolingo. Longman. Netflix. Google. EME. Lonely Planet.</p>
+  <div class="notfound" style="padding:20px" align="center">
   <h2><i>Not found? Add your own</i></h2>
   <form>
     <input placeholder="language" /><br>
     <input placeholder="word" /><br>
     <input placeholder="topic" /><br>
-    <textarea placeholder="example"></textarea><br>
+    <textarea placeholder="example" style="height:180px; width:350px;"></textarea><br>
     <input type="submit" value="Add" />
   </form>
+</div>
+  <footer class="footer">
+    <div style="background-color:lavender; color:#663366; padding:10px" align="center">
+      <h3>Resources & Credits to</h3>
+      <a class="footer-link" href="https://www.ldoceonline.com/" target="_blank">Longman.</a>
+      <a class="footer-link" href="https://www.duolingo.com/learn" target="_blank">Duolingo.</a>
+      <a class="footer-link" href="https://translate.google.com/?sl=en" target="_blank">Google Translate.</a>
+      <a class="footer-link" href="https://www.instagram.com/english_made_easy/" target="_blank">EME.</a>
+      <a class="footer-link" href="https://www.lonelyplanet.com/" target="_blank">Lonely Planet.</a>
+      <a class="footer-link" href="https://www.netflix.com/" target="_blank">Netflix.</a>
+    </div>
+  </footer>
 </body>
 
 </html>
