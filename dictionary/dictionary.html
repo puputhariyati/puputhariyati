@@ -189,6 +189,7 @@
       <li>rich</li>
       <li>rigorous</li>
       <li>sad</li>
+      <li>selfish</li>
       <li>slow</li>
       <li>small</li>
       <li>spicy</li>
@@ -690,6 +691,7 @@
       <li>hand</li>
       <li>head</li>
       <li>leg</li>
+      <li>slim</li>
       <li>sound</li>
     </div>`;
     }
@@ -783,6 +785,7 @@
     <h3>Search words by songs</h3>
     <a href="firstlove.html" target="_blank">First Love - Utada Hikaru</a><br>
     <a href="meteorshower.html" target="_blank">流星雨 - F4</a>
+    <a href="dayandnight.html" target="_blank">Day & Night - Jung Seung-hwan</a>
   </div>
   <hr/>
   <p id="demo"></p>
@@ -1089,14 +1092,50 @@ Helene <br>
     </tr>
   </table><br>`)
       }
+      else if (keyword == "I"||keyword == "saya"||keyword == "aku"||keyword == "저는") {
+        window.open('vocabs/I.html', "_blank")
+      }
       else if (keyword == "this"||keyword == "ini"||keyword == "zhe"||keyword == "这") {
-        window.open('this.html', "_blank")
+        window.open('vocabs/this.html', "_blank")
       }
       else if (keyword == "is"||keyword == "adalah"||keyword == "shi"||keyword == "是") {
-        window.open('is.html', "_blank")
+        window.open('vocabs/is.html', "_blank")
+      }
+      else if (keyword == "beautiful") {
+        window.open('vocabs/beautiful.html', "_blank")
+      }
+      else if (keyword == "day") {
+        window.open('vocabs/day.html', "_blank")
+      }
+      else if (keyword == "fast") {
+        window.open(`vocabs/fast.html`,"_blank")
       }
       else if (keyword == "less") {
-        window.open('less.html', "_blank")
+        window.open('vocabs/less.html', "_blank")
+      }
+      else if (keyword == "man" || keyword == "men") {
+        window.open('vocabs/man.html', "_blank")
+      }
+      else if (keyword == "movie") {
+        window.open('vocabs/movie.html', "_blank")
+      }
+      else if (keyword == "often") {
+        window.open(`vocabs/often.html`,"_blank")
+      }
+      else if (keyword == "slim" || keyword == "skinny" || keyword == "thin") {
+        window.open(`vocabs/slim.html`,"_blank")
+      }
+      else if (keyword == "turn") {
+        window.open(`vocabs/turn.html`,"_blank")
+      }
+      else if (keyword == "walk") {
+        window.open(`vocabs/walk.html`,"_blank")
+      }
+      else if (keyword == "here") {
+        window.open(`vocabs/here.html`,"_blank")
+      }
+      else if (keyword == "selfish") {
+        window.open(`vocabs/selfish.html`,"_blank")
       }
       else if (keyword == "that"||keyword == "those") {
         document.write(
@@ -1124,270 +1163,6 @@ Helene <br>
     <i><font color="777777">Is that shirt white?</font></i><br>`)
       }
       //Pronoun
-      else if (keyword == "I" || keyword=="saya"||keyword=="aku") {
-        document.write(`English: I <br>
-  I am a boy. <br>
-  tips<br>
-  <table border="1">
-    <tr>
-      <th>subject</th>
-      <th>verb (to be)</th>
-      <th>to be (past)</th>
-      <th>verb (present)</th>
-      <th>verb2 (past)</th>
-      <th>verb3 (perfect)</th>
-    </tr>
-    <tr>
-      <td>I</td>
-      <td>am</td>
-      <td>was</td>
-      <td>do</td>
-      <td>did</td>
-      <td>have done</td>
-    </tr>
-    <tr>
-      <td>You (all)</td>
-      <td>are</td>
-      <td>were</td>
-      <td>do</td>
-      <td>did</td>
-      <td>have done</td>
-    </tr>
-    <tr>
-      <td>He / She /It</td>
-      <td>is</td>
-      <td>was</td>
-      <td>does</td>
-      <td>did</td>
-      <td>has done</td>
-    </tr>
-    <tr>
-      <td>We</td>
-      <td>are</td>
-      <td>were</td>
-      <td>do</td>
-      <td>did</td>
-      <td>have done</td>
-    </tr>
-    <tr>
-      <td>They</td>
-      <td>are</td>
-      <td>were</td>
-      <td>do</td>
-      <td>did</td>
-      <td>have done</td>
-    </tr>
-  </table><br>
-  French: je <br>
-  Je suis un garçon. <br>
-  tips<br>
-  <table border="1">
-    <tr>
-      <th>subject</th>
-      <th>verb (être)</th>
-      <th>être (past)</th>
-      <th>do (faire)</th>
-      <th>have (avoir) bought (acheter)</th>
-    </tr>
-    <tr>
-      <td>je/j'</td>
-      <td>suis</td>
-      <td>êtais</td>
-      <td>fais</td>
-      <td>ai acheté</td>
-    </tr>
-    <tr>
-      <td>tu</td>
-      <td>es</td>
-      <td>êtais</td>
-      <td>fais</td>
-      <td>as acheté</td>
-    </tr>
-    <tr>
-      <td>il / elle / on</td>
-      <td>est</td>
-      <td>êtait</td>
-      <td>fait</td>
-      <td>a acheté</td>
-    </tr>
-    <tr>
-      <td>nous</td>
-      <td>sommes</td>
-      <td>êtions</td>
-      <td>faisons</td>
-      <td>avons acheté</td>
-    </tr>
-    <tr>
-      <td>vous</td>
-      <td>êtes</td>
-      <td>êtiez</td>
-      <td>faites</td>
-      <td>avez acheté</td>
-    </tr>
-    <tr>
-      <td>ils / elles</td>
-      <td>sont</td>
-      <td>êtaient</td>
-      <td>font</td>
-      <td>ont acheté</td>
-    </tr>
-  </table><br>
-  Spanish: yo, estoy <br>
-  Yo soy una niña. <br>
-  No estoy de acuerdo con su punto de vista sobre la crisis, pero no diré nada. <br>
-  tips<br>
-  <table border="1">
-    <tr>
-      <th>subject</th>
-      <th>verb (ser)</th>
-    </tr>
-    <tr>
-      <td>yo</td>
-      <td>soy</td>
-    </tr>
-    <tr>
-      <td>tú</td>
-      <td>eres</td>
-    </tr>
-    <tr>
-      <td>él / ella / usted</td>
-      <td>es</td>
-    </tr>
-    <tr>
-      <td>nosotros / nosotras</td>
-      <td>somos</td>
-    </tr>
-    <tr>
-      <td>ellos / ellas / ustedes</td>
-      <td>son</td>
-    </tr>
-  </table><br>
-  Italian: io <br>
-  Io sono l'uomo.<br>
-  <i><font color="777777">I am the man.</font></i><br><br>
-  I am the man.
-  tips<br>
-  <table border="1">
-    <tr>
-      <th>subject</th>
-      <th>verb (to be)</th>
-    </tr>
-    <tr>
-      <td>io</td>
-      <td>sono</td>
-    </tr>
-    <tr>
-      <td>tu</td>
-      <td>eres</td>
-    </tr>
-    <tr>
-      <td>lui / lei <i>(she/you formal)</i> / esso/essa</td>
-      <td>es</td>
-    </tr>
-    <tr>
-      <td>noi</td>
-      <td>somos</td>
-    </tr>
-    <tr>
-      <td>loro / essi/esse</td>
-      <td>son</td>
-    </tr>
-    <tr>
-      <td>voi <i>(you all)</i></td>
-      <td>somos</td>
-    </tr>
-  </table><br>
-  German: ich <br>
-  Ich bin allain. <br><br>
-  Dutch: ik <br>
-  Ik ben een vrouw. <br>
-  <i><font color="777777">I am a woman.</font></i><br>
-  tips<br>
-  <table border="1">
-    <tr>
-      <th>subject</th>
-      <th>verb (to be)</th>
-      <th>drinken (drink)</th>
-    </tr>
-    <tr>
-      <td>Ik</td>
-      <td>ben</td>
-      <td>drink</td>
-    </tr>
-    <tr>
-      <td>Jij (Je*) / U (formal)</td>
-      <td>eres</td>
-      <td>drinkt</td>
-    </tr>
-    <tr>
-      <td>Hij/Zij (Ze*)/Het</td>
-      <td>es</td>
-      <td>drinkt</td>
-    </tr>
-    <tr>
-      <td>Wij (We*)</td>
-      <td>somos</td>
-      <td>drinken</td>
-    </tr>
-    <tr>
-      <td>Jullie (pl you)</td>
-      <td>son</td>
-      <td>drinken</td>
-    </tr>
-    <tr>
-      <td>Zij (Ze*)</td>
-      <td>somos</td>
-      <td>drinken</td>
-    </tr>
-  </table><br>
-Indonesian: saya <br>
-  Saya suka apel. <br>
-  <i><font color="777777">I like apples. </font></i><br>
-  Saya (adalah) Paul. <br>
-  <i><font color="777777">I am Paul. </font></i><br>
-  tips<br>
-  <table border="1">
-    <tr>
-      <th>subject</th>
-      <th>to be (kata bantu kerja) <br>          <small>*can be omitted</small></th>
-      <th>like (suka)</th>
-    </tr>
-    <tr>
-      <td>Saya / Aku (informal)</td>
-      <td>adalah</td>
-      <td>suka</td>
-    </tr>
-    <tr>
-      <td>Kamu / Anda (formal)</td>
-      <td>adalah</td>
-      <td>suka</td>
-    </tr>
-    <tr>
-      <td>Dia, Itu</td>
-      <td>adalah</td>
-      <td>suka</td>
-    </tr>
-    <tr>
-      <td>Kita</td>
-      <td>adalah</td>
-      <td>suka</td>
-    </tr>
-    <tr>
-      <td>Kalian (you all)</td>
-      <td>adalah</td>
-      <td>suka</td>
-    </tr>
-    <tr>
-      <td>Mereka</td>
-      <td>adalah</td>
-      <td>suka</td>
-    </tr>
-  </table><br>
-  Chinese: 我 (Wǒ) <br>
-  我想买一些苹果。(Wǒ xiǎng mǎi yìxiē píngguǒ).<br>
-  我不知道 wǒ bù zhī dào.<br>
-  <i><font color="777777">I don't know.</font></i><br>`)
-      }
       else if (keyword == "you") {
         document.write(`
   French: tu (inf), vous (formal/pl), il faut (you need), toi (obj) <br>
@@ -1562,7 +1337,7 @@ Indonesian: saya <br>
       }
       //possessive
       else if (keyword == "my") {
-        window.open('my.html', "_blank")
+        window.open('vocabs/my.html', "_blank")
       }
       else if (keyword == "your") {
         document.write(
@@ -1897,22 +1672,6 @@ Indonesian: saya <br>
     Ik ben een jongen.<br>
     <i><font color="777777">I am a boy.</font></i><br>`)
       }
-      else if (keyword == "man") {
-        document.write(
-          `French: un homme <br>
-    un homme et un garcon<br>
-    <i><font color="777777">a man and a boy</font></i><br>
-    l'homme et ses bébés<br>
-    <i><font color="777777">the man and his babies</font></i><br><br>
-    Sp: un hombre <br>
-    <i><font color="777777">a man</font></i><br><br>
-    It: uomo <br>
-  Io sono l'uomo.<br>
-  <i><font color="777777">I am the man.</font></i><br><br>
-    Dut: een man <br>
-  Ik ben een man.<br>
-  <i><font color="777777">I am a man.</font></i><br><br>`)
-      }
       else if (keyword == "mom"||keyword == "mother") {
         document.write(
           `French: maman <br>
@@ -2115,14 +1874,6 @@ Indonesian: saya <br>
           Le livre qu'il m'a offert est nul.<br>
           <i><font color="777777">The book that he gave me is bad.</font></i><br>`)
       }
-      else if (keyword == "beautiful") {
-        document.write(
-          `French: belle (f), bel (m)<br>
-          un bel hôtel.<br>
-          <i><font color="777777">A beautiful hotel.</font></i><br>
-          Celles-ci sont très belles.<br>
-          <i><font color="777777">These are very beautiful.</font></i><br>`)
-      }
       else if (keyword == "big") {
         document.write(
           `French: gross <br>
@@ -2186,7 +1937,7 @@ Indonesian: saya <br>
           <i><font color="777777">The bag that you're carrying is heavy.​</font></i><br>`)
       }
       else if (keyword == "interesting") {
-        window.open(`interesting.html`,"_blank")
+        window.open(`vocabs/interesting.html`,"_blank")
       }
       else if (keyword == "international") {
         document.write(
@@ -2243,14 +1994,6 @@ Indonesian: saya <br>
     <i><font color="777777">It is a good book.</font></i><br>
     Si tu étudies, tu auras une bonne note.<br>
     <i><font color="777777">If you study, you will get a good grade.</font></i><br>`)
-      }
-      else if (keyword == "fast") {
-        document.write(
-          `Fr: vite <br>
-    Je vais plus vite à trottinette qu'en voiture ! <br><br>
-    Jpn: 速 (haya)<br>
-    速くないですか？(haya ku na i desuka) <br>
-    <i><font color="777777">Isn't it fast?</font></i><br>`)
       }
       else if (keyword == "broken") {
         document.write(
@@ -2521,12 +2264,6 @@ Indonesian: saya <br>
           `French: un cerf-volant <br>
     S'il y a du vent, nous ferons du cerf-volant.<br>
     <i><font color="777777">If there's wind, we'll fly a kite.</font></i><br><br>`)
-      }
-      else if (keyword == "movie") {
-        document.write(
-          `French: un film <br>
-    Elle a regardé un film.<br>
-    <i><font color="777777">She watched a movie.</font></i><br><br>`)
       }
       else if (keyword == "party") {
         document.write(
@@ -3424,13 +3161,19 @@ Indonesian: saya <br>
     <i><font color="777777">He's a musician who likes to dance.</font></i><br>`)
       }
       else if (keyword == "university") {
-        window.open('university.html', "_blank")
+        window.open('vocabs/university.html', "_blank")
       }
       else if (keyword == "someday"||keyword == "one day"||keyword == "itsuka") {
-        window.open('someday.html', "_blank")
+        window.open('vocabs/someday.html', "_blank")
       }
       else if (keyword == "fall") {
-        window.open(`fall.html`,"_blank")
+        window.open(`vocabs/fall.html`,"_blank")
+      }
+      else if (keyword == "between") {
+        window.open(`vocabs/between.html`,"_blank")
+      }
+      else if (keyword == "next to") {
+        window.open(`vocabs/next-to.html`,"_blank")
       }
       else if (keyword == "die") {
         document.write(
@@ -4016,21 +3759,6 @@ Indonesian: saya <br>
     Mi abuela me quiere mucho.<br>
     <i><font color="777777">My grandmother loves me a lot.</font></i><br><br>`)
       }
-      else if (keyword == "walk") {
-        document.write(
-          `French: marcher, promène (take a walk)<br>
-    Mon fils veut une trottinette ou un vélo pour son anniversaire parce qu'il n'aime pas marcher.<br>
-    <i><font color="777777">My son wants a scooter or a bike for his birthday because he doesn't like walking.</font></i><br>
-    Hier j'ai marché sur la plage.<br>
-    <i><font color="777777">Yesterday, I walked on the beach.</font></i><br>
-    Je passe par le parc quand je me promène
- avec mon chien.<br>
-    <i><font color="777777">I go through this park when I take a walk with my dog.</font></i><br>
-    Nous marchions dans la rue quand nous avons vu une voiture de police. <br>
-    <i><font color="777777">We were walking down the street when we saw a police car.</font></i><br>
-    Tu marcheras sur la plage. <br>
-    <i><font color="777777">You will walk on the beach.</font></i><br>`)
-      }
       else if (keyword == "rain") {
         document.write(
           `French: pleuvoir <br>
@@ -4420,18 +4148,6 @@ Indonesian: saya <br>
     no entiendo <br>
     <i><font color="777777">no entiendo</font></i><br>`)
       }
-      else if (keyword == "turn") {
-        document.write(
-          `French: tourner <br>
-    Ils vont tourner au coin de la rue.<br>
-    <i><font color="777777">They're going to turn at the street corner.</font></i><br>
-    Tourne à gauche, puis va tout droit.<br>
-    <i><font color="777777">Turn to the left, then go straight.</font></i><br>
-    Tu tournes ici pour aller au travail ? <br>
-    <i><font color="777777">Do you turn here to go to work?</font></i><br>
-    Tourne ici ! <br>
-    <i><font color="777777">Turn here!</font></i><br>`)
-      }
       else if (keyword == "visit") {
         document.write(
           `French: visite <br>
@@ -4595,21 +4311,6 @@ Indonesian: saya <br>
     Ils rentreront de vacances le douze août.<br>
     <i><font color="777777">They will come back from vacation on August twelfth.</font></i><br>`)
       }
-      else if (keyword == "day") {
-        document.write(
-          `French: le jour, journée <br>
-    Tu nageras tous les jours dans la mer.<br>
-    <i><font color="777777">You will swim every day in the sea.</font></i><br>
-    Demain, tu prendras tes médicaments trois fois par jour. <br>
-    <i><font color="777777">Tomorrow, you'll take your medicine three times a day.</font></i><br>
-    S'il fait beau, je serai à la plage toute la journée. <br>
-    <i><font color="777777">If it's nice, I'll be at the beach all day.</font></i><br>
-    Un jour, j'irai surfer cette vague très célèbre. <br>
-    <i><font color="777777">One day, I'll go surf this very famous wave.</font></i><br><br>
-    Spanish: dias <br>
-    Mamá, te ayudo con la comida todos los días. <br>
-    <i><font color="777777">Mom, I help you with the food every day.</font></i><br>`)
-      }
       else if (keyword == "everywhere") {
         document.write(
           `French: partout <br>
@@ -4649,12 +4350,6 @@ Indonesian: saya <br>
     近いですか？ (chika i desuka) <br>
     <i><font color="777777">Is it near?</font></i><br>`)
       }
-      else if (keyword == "often") {
-        document.write(
-          `French: souvent<br>
-    Tu vas souvent au temple ?<br>
-    <i><font color="777777">Do you often go to the temple?</font></i><br><br>`)
-      }
       else if (keyword == "only") {
         document.write(
           `French: seulement <br>
@@ -4674,15 +4369,6 @@ Indonesian: saya <br>
     Heureusement, tout le monde va bien. <br>
     Heureusement, le pilote ne dormira pas. <br>
     <i><font color="777777">Fortunately, the pilot won't sleep.</font></i><br><br>`)
-      }
-      else if (keyword == "here") {
-        document.write(
-          `Fr: ici<br>
-    Ils sont ici. <br>
-    <i><font color="777777">They are here.</font></i><br><br>
-    Jpn: ここ (koko) <br>
-    ここから遠いですか？(koko kara too i desuka) <br>
-  <i><font color="777777">Is it far from here? </font></i><br>`)
       }
       else if (keyword == "there") {
         document.write(
@@ -5224,12 +4910,6 @@ Elle apprendra beaucoup de choses pour devenir un bon médecin.<br>
     Je suis en face du musée.<br>
     <i><font color="777777">I'm across from the museum. </font></i><br>`)
       }
-      else if (keyword == "between") {
-        document.write(
-          `French: entre <br>
-          Le musée est entre les deux stations de métro.<br>
-          <i><font color="777777">The museum is between the two subway stations.</font></i><br>`)
-      }
       else if (keyword == "bottom") {
         document.write(
           `French: en bas <br>
@@ -5287,14 +4967,6 @@ Elle apprendra beaucoup de choses pour devenir un bon médecin.<br>
         document.write(`
     French: vers <br>
     Je vais au restaurant à pied. Je marche vers le restaurant.`)
-      }
-      else if (keyword == "next to") {
-        document.write(`
-    French: à côté de <br>
-    Elle se gare toujours sur la même place, à côté de l'usine.<br>
-    <i><font color="777777">She always parks in the same parking spot, next to the factory.</font></i><br>
-    La salle d'attente est à côté du bureau de la secrétaire.<br>
-    <i><font color="777777">The waiting room is next to the secretary's office.</font></i><br>`)
       }
       else if (keyword == "for") {
         document.write(
